@@ -1,12 +1,51 @@
-# React + Vite
+# GrandmaTales – Terms, FAQ & Opt-Out Pages
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is Module 5 of the GrandmaTales.com platform — a digital library of family-friendly, lesser-known folktales. Built using **React + Vite**, this module includes key informational and interactive pages.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Live URL on Netlify](https://grandmatales-terms.netlify.app/)
+- [GitHub Repo](https://github.com/VishalPcode/candidate-00X-grandmatales-module-terms)
 
-## Expanding the ESLint configuration
+## 📄 Pages Implemented
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Terms Page:**  
+  Displays the placeholder content “PLACEHOLDER – DO NOT EDIT” as instructed.
+
+- **FAQ Page:**  
+  Fully dynamic FAQ rendered from a `faq.json` file. The FAQ entries are collapsible/expandable with smooth animations and arrow icons.
+
+- **Opt-Out Page:**  
+  Confirmation page with a countdown timer that enables a button after 10 seconds, following the UX specification.
+
+## 🎨 Brand Guidelines Applied
+
+- **Typography:**  
+  Headline: DM Serif Display  
+  Body: Inter Regular
+
+- **Colors:**  
+  - Primary (Deep Plum): `#4B2E39`  
+  - Accent (Warm Gold): `#D4AF37`  
+  - Background: `#FAF9F7`
+
+- **Style & Feel:**  
+  - Warm, nostalgic design  
+  - Grid-based layout  
+  - Subtle fade-in animations  
+  - Rounded gold-accented buttons  
+  - Mobile responsive layout
+
+## ⚙️ Tech Stack
+
+- Vite + React
+- React Router DOM
+- Tailwind CSS
+- PostCSS
+- Icons via `react-icons`
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
