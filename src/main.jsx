@@ -7,12 +7,39 @@ import FAQ from './pages/FAQ';
 import OptOut from './pages/OptOut';
 import Header from './components/Header';
 
-function Home() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-bg text-primary font-body flex items-center justify-center p-6">
-      <div className="text-center">
-        <h2 className="text-3xl font-heading mb-4">Welcome to GrandmaTales</h2>
-        <p className="text-lg">Explore our Terms, FAQ, and Opt-Out pages using the links above.</p>
+    <main
+      className="min-h-screen flex items-center justify-center px-4 py-10"
+      style={{
+        backgroundColor: '#FAF9F7',
+        color: '#4B2E39',
+        fontFamily: 'Inter, sans-serif',
+      }}
+    >
+      <div
+        className="text-center max-w-xl rounded-lg shadow-md border animate-fade-in"
+        style={{
+          backgroundColor: 'white',
+          borderColor: '#D4AF37',
+          padding: '2.5rem',
+        }}
+      >
+        <h1
+          className="text-3xl sm:text-4xl font-bold mb-4 lowercase"
+          style={{
+            fontFamily: '"DM Serif Display", serif',
+            color: '#4B2E39',
+          }}
+        >
+          welcome to grandmatales
+        </h1>
+        <p
+          className="text-lg sm:text-xl"
+          style={{ fontFamily: 'Inter, sans-serif' }}
+        >
+          Explore our <strong>Terms</strong>, <strong>FAQ</strong>, and <strong>Opt-Out</strong> pages using the links above.
+        </p>
       </div>
     </main>
   );

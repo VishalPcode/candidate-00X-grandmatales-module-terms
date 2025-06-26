@@ -12,7 +12,7 @@ This project is Module 5 of the GrandmaTales.com platform — a digital library 
 - **Terms Page:**  
   Displays the placeholder content “PLACEHOLDER – DO NOT EDIT” as instructed.
 
-- **FAQ Page:**  
+- **FAQ Page:**  p
   Fully dynamic FAQ rendered from a `faq.json` file. The FAQ entries are collapsible/expandable with smooth animations and arrow icons.
 
 - **Opt-Out Page:**  
